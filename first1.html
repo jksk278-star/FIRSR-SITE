@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header */
+    .header {
+      background-color: #333;
+      padding: 10px 0;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: center;
+    }
+
+    .nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    .nav a:hover {
+      background-color: #575757;
+    }
+
+    .nav a.active {
+      background-color: #04AA6D;
+    }
+
+    /* Product Section */
+    .products {
+      padding: 40px;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+
+    .product-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      margin: 10px 0;
+    }
+
+    .card p {
+      color: #555;
+    }
+
+    .card button {
+      background: #04AA6D;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .card button:hover {
+      background: #038f5a;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer a {
+      color: #04AA6D;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="nav">
+      <a href="#" class="active">Home</a>
+      <a href="#">About</a>
+      <a href="#">Products</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+  <!-- Products Section -->
+  <div class="products">
+    <h2>Our Products</h2>
+    <div class="product-container">
+
+      <div class="card">
+        <img src="https://via.placeholder.com/250" alt="Product 1">
+        <h3>Product 1</h3>
+        <p>$20.00</p>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/250" alt="Product 2">
+        <h3>Product 2</h3>
+        <p>$35.00</p>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/250" alt="Product 3">
+        <h3>Product 3</h3>
+        <p>$50.00</p>
+        <button>Buy Now</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>© 2026 My Website</p>
+    <div>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Products</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+</body>
+</html>
